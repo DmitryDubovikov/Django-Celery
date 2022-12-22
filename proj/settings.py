@@ -133,3 +133,6 @@ EMAIL_HOST_PASSWORD = '***'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'dda.dev.test@gmail.com'
+
+
+CELERY_BROKER_URL = 'amqp://localhost'
